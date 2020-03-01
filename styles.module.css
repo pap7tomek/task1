@@ -1,0 +1,23 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #DEDEDE;
+    text-align: center;
+    font-size: 40px;
+    padding: 7px;
+}
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: black;
+    background-color: #DEDEDE;
+    border: 1px solid #bfbfbf;
+    padding: 10px 25px;
+}
+.wrapper {
+    position: relative;
+    height: calc(100vh - 61px);
+}
