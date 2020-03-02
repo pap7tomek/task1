@@ -1,0 +1,48 @@
+.header {
+    font-size: 24px;
+    padding: 13px;
+    position: relative;
+}
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: black;
+    background-color: #DEDEDE;
+    border: 1px solid #bfbfbf;
+    padding: 10px 25px;
+}
+.close {
+    position: absolute;
+    top: 12px;
+    right: 13px;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 23px;
+    font-size: 17px;
+    width: 9px;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+.input {
+    padding: 5px;
+    width: calc(100vw - 50px);
+}
+.wrapper {
+    padding: 13px
+}
+.content {
+    margin-top: 10px;
+    width: calc(100vw - 37px);
+    height: calc(100vh - 120px);
+    overflow-y: scroll;
+}
+.category {
+    padding: 8px;
+    background-color: #F9F9F9;
+}
+.product {
+    padding: 3px;
+}

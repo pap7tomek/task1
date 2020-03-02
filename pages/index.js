@@ -1,4 +1,4 @@
-import styles from '../styles.module.css'
+import styles from './css/home.module.css'
 import Link from 'next/link'
 function HomePage() {
     return <div>
